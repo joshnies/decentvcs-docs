@@ -56,9 +56,7 @@ const config = {
         title: "Docs",
         logo: {
           alt: "Logo",
-          src: "img/logo.svg",
-          width: "24px",
-          height: "24px",
+          src: "img/logo-circle.png",
         },
         items: [
           {
