@@ -45,13 +45,13 @@ force-unlock files at any time, allowing you to remain unblocked and to continue
 
 ### 🖥 Cross-platform app
 
-We built a beautifully-designed app for managing all of the complexities of VCS for you. Every feature is at a click
-of a button, whether you're on desktop or the web. Version control has never been simpler, and even more so for larger
-projects.
+We built a [beautifully-designed app](https://decentvcs.com/download) for managing all of the complexities of VCS for
+you. Access every feature at a click of a button, whether you're on desktop or the web.
 
 ### 🤓 CLI
 
-Use the `dvcs` CLI to manage your project from the terminal or integrate it into your custom workflow.
+Use the official [DecentVCS CLI](https://decentvcs.com/download) to manage your project from the terminal or integrate
+DecentVCS into your custom workflow.
 
 ## What this means for you
 
