@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # Projects
@@ -7,7 +7,7 @@ sidebar_position: 3
 ## Create a project
 
 ```bash
-dvcs init [-p | --path <path>] <team_name>/<project_name>
+dvcs init [-p | --path <path?>] <team_name>/<project_name>
 ```
 
 | Argument | Alias | Description                                                                    |
@@ -27,7 +27,7 @@ dvcs init --path ~/dev/my-project my-team/my-project
 ## Clone a project
 
 ```bash
-dvcs clone [-p | --path <path>] [-b | --branch <branch>] <team_name>/<project_name>
+dvcs clone [-p | --path <path?>] [-b | --branch <branch?>] <team_name>/<project_name>
 ```
 
 | Argument   | Alias | Description                                                                    |

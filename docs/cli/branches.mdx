@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 # Branches
@@ -46,27 +46,27 @@ are not referenced anywhere else in the project.
 :::
 
 ```bash
-dvcs branch delete [-y] <branch_name>
+dvcs branch delete [-y?] <branch_name>
 ```
 
 | Argument      | Alias | Description               |
 | ------------- | ----- | ------------------------- |
-| `--yes`       | `-y`  | Skip confirmation prompt. |
 | `branch_name` |       | Name of branch to delete. |
+| `--yes`       | `-y`  | Skip confirmation prompt. |
 
 ## Merge a branch
 
 Merge a branch into the current branch.
 
 ```bash
-dvcs merge [-y] [--push] <branch_name>
+dvcs merge [-y?] [--push?] <branch_name>
 ```
 
 | Argument      | Alias | Description                         |
 | ------------- | ----- | ----------------------------------- |
+| `branch_name` |       | Name of branch to merge.            |
 | `--yes`       | `-y`  | Skip confirmation prompt.           |
 | `--push`      |       | Push changes to remote after merge. |
-| `branch_name` |       | Name of branch to merge.            |
 
 ## Set branch as default
 

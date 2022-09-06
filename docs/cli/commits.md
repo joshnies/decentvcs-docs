@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 # Commits
@@ -23,13 +23,13 @@ If you choose to force push, any commits ahead of yours will be **permanently de
 :::
 
 ```bash
-dvcs push [-y] <message?>
+dvcs push [-y?] <message?>
 ```
 
-| Argument  | Alias | Description                                                |
-| --------- | ----- | ---------------------------------------------------------- |
-| `--yes`   | `-y`  | Skip confirmation prompt.                                  |
-| `message` |       | Message describing changes made in this commit (optional). |
+| Argument  | Alias | Description                                     |
+| --------- | ----- | ----------------------------------------------- |
+| `message` |       | Message describing changes made in this commit. |
+| `--yes`   | `-y`  | Skip confirmation prompt.                       |
 
 :::note
 
@@ -46,13 +46,13 @@ dvcs push -y "fixed compression"
 Sync your local project to the specified commit (or latest commit if not specified). Retains all local changes unless prompted to override.
 
 ```bash
-dvcs sync [-y] <commit_index?>
+dvcs sync [-y?] <commit_index?>
 ```
 
 | Argument       | Alias | Description                                                           |
 | -------------- | ----- | --------------------------------------------------------------------- |
+| `commit_index` |       | Index of commit to sync to.                                           |
 | `--yes`        | `-y`  | Skip confirmation prompt. This **will not** skip the override prompt. |
-| `commit_index` |       | Index of commit to sync to (optional).                                |
 
 :::note
 
@@ -69,7 +69,7 @@ dvcs sync 3
 Reset all local changes to be in sync with remote.
 
 ```bash
-dvcs reset [-y]
+dvcs reset [-y?]
 ```
 
 | Argument | Alias | Description               |
@@ -81,7 +81,7 @@ dvcs reset [-y]
 Revert to the previous commit. **Note: This will also reset all local changes.**
 
 ```bash
-dvcs revert [-y]
+dvcs revert [-y?]
 ```
 
 | Argument | Alias | Description               |
@@ -99,7 +99,7 @@ dvcs changes
 ## Print commit history
 
 ```bash
-dvcs history [--limit <limit>]
+dvcs history [--limit <limit?>]
 ```
 
 | Argument  | Alias | Description                                           |
