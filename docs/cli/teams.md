@@ -21,7 +21,17 @@ up for DecentVCS if they haven't already.
 dvcs invite [--team <team_name?>] [<emails>...]
 ```
 
-| Argument | Alias | Description                                       |
-| -------- | ----- | ------------------------------------------------- |
-| `emails` |       | Email addresses of invitees, separated by commas. |
-| `--team` | `-t`  | The name of the team to send out invites for.     |
+| Argument | Alias | Description                                      |
+| -------- | ----- | ------------------------------------------------ |
+| `emails` |       | Email addresses of invitees, separated by space. |
+| `--team` | `-t`  | The name of the team to send out invites for.    |
+
+:::note
+
+Example:
+
+```bash
+dvcs invite --team my-team john.smith@example.com jane.doe@example.com
+```
+
+:::

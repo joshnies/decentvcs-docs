@@ -25,9 +25,19 @@ Lock one or many files or directories within the project from being modified by 
 dvcs lock [<paths>...]
 ```
 
-| Argument | Description                                                                                |
-| -------- | ------------------------------------------------------------------------------------------ |
-| `paths`  | File or directory paths to lock, separated by commas. At least one path must be specified. |
+| Argument | Description                                                                               |
+| -------- | ----------------------------------------------------------------------------------------- |
+| `paths`  | File or directory paths to lock, separated by space. At least one path must be specified. |
+
+:::note
+
+Example:
+
+```bash
+dvcs lock src/new-feature src/new-file.txt
+```
+
+:::
 
 ## Unlock file(s)
 
@@ -37,7 +47,17 @@ Unlock one or many files or directories within the project, allowing them to be 
 dvcs unlock [--force] [<paths>...]
 ```
 
-| Argument  | Alias | Description                                                                                  |
-| --------- | ----- | -------------------------------------------------------------------------------------------- |
-| `--force` | `-f`  | Force unlock (must be a team admin or owner)                                                 |
-| `paths`   |       | File or directory paths to unlock, separated by commas. At least one path must be specified. |
+| Argument  | Alias | Description                                                                                 |
+| --------- | ----- | ------------------------------------------------------------------------------------------- |
+| `--force` | `-f`  | Force unlock (must be a team admin or owner)                                                |
+| `paths`   |       | File or directory paths to unlock, separated by space. At least one path must be specified. |
+
+:::note
+
+Example:
+
+```bash
+dvcs unlock -f src/new-feature src/new-file.txt
+```
+
+:::
