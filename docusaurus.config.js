@@ -67,7 +67,7 @@ const config = {
           },
           {
             type: "doc",
-            docId: "getting-started/installation",
+            docId: "getting-started",
             position: "left",
             label: "Getting Started",
           },
