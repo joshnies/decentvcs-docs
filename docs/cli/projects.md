@@ -42,3 +42,11 @@ Example:
 ```bash
 dvcs clone --path ~/dev/my-project --branch unstable my-team/my-project
 ```
+
+## Print status
+
+Print info about a project, including the project name, current branch, and current commit.
+
+```bash
+dvcs status
+```
