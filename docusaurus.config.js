@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "DecentVCS Documentation",
-  tagline: "Simple and affordable large-file version control system",
+  tagline: "Simple large-file version control",
   url: "https://docs.decentvcs.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -16,8 +16,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "decentvcs", // Usually your GitHub org/user name.
-  projectName: "docs", // Usually your repo name.
+  // organizationName: "decentvcs", // Usually your GitHub org/user name.
+  // projectName: "docs", // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -53,25 +53,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "Docs",
+        title: "Documentation",
         logo: {
           alt: "Logo",
           src: "img/logo-circle.png",
         },
         items: [
-          {
-            type: "doc",
-            docId: "intro",
-            position: "left",
-            label: "Intro",
-          },
-          {
-            type: "doc",
-            docId: "getting-started",
-            position: "left",
-            label: "Getting Started",
-          },
-          { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://github.com/decentvcs/docs",
             label: "GitHub",
@@ -86,8 +73,12 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Tutorial",
+                label: "Introduction",
                 to: "/docs/intro",
+              },
+              {
+                label: "Getting Started",
+                to: "/docs/getting-started",
               },
             ],
           },
@@ -95,16 +86,14 @@ const config = {
             title: "Community",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
+                // TODO: Add Discord invite link
                 label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
+                href: "https://discordapp.com",
               },
               {
+                // TODO: Add twitter link
                 label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                href: "https://twitter.com",
               },
             ],
           },
@@ -112,17 +101,13 @@ const config = {
             title: "More",
             items: [
               {
-                label: "Blog",
-                to: "/blog",
-              },
-              {
                 label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                href: "https://github.com/decentvcs",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} DecentVCS.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Decent, LLC. All rights reserved.`,
       },
       prism: {
         theme: lightCodeTheme,
