@@ -1,19 +1,19 @@
 # DecentVCS Documentation Site
 
-Official documentation website for DecentVCS.
+Official documentation site for DecentVCS.
 
 Built using [Docusaurus 2](https://docusaurus.io/).
 
 ### Installation
 
 ```
-$ yarn
+$ pnpm
 ```
 
 ### Local Development
 
 ```
-$ yarn start
+$ pnpm start
 ```
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
@@ -21,7 +21,7 @@ This command starts a local development server and opens up a browser window. Mo
 ### Build
 
 ```
-$ yarn build
+$ pnpm build
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.

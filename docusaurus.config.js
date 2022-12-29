@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "DecentVCS Documentation",
-  tagline: "Simple large-file version control",
+  tagline: "Simple version control for massive projects",
   url: "https://docs.decentvcs.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -34,13 +34,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          // Remove this to remove the "edit this page" links.
           editUrl: "https://github.com/decentvcs/docs",
-        },
-        blog: {
-          showReadingTime: true,
-          // Remove this to remove the "edit this page" links.
-          // editUrl: "https://github.com/decentvcs/docs",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -60,6 +54,16 @@ const config = {
         },
         items: [
           {
+            href: "https://decentvcs.com/downloads",
+            label: "Downloads",
+            position: "left",
+          },
+          {
+            href: "https://decentvcs.com/support",
+            label: "Support",
+            position: "left",
+          },
+          {
             href: "https://github.com/decentvcs/docs",
             label: "GitHub",
             position: "right",
@@ -70,7 +74,7 @@ const config = {
         style: "light",
         links: [
           {
-            title: "Docs",
+            title: "Documentation",
             items: [
               {
                 label: "Introduction",
@@ -80,20 +84,22 @@ const config = {
                 label: "Getting Started",
                 to: "/docs/getting-started",
               },
+              {
+                label: "CLI Reference",
+                to: "/docs/cli",
+              },
             ],
           },
           {
-            title: "Community",
+            title: "Follow Us",
             items: [
               {
-                // TODO: Add Discord invite link
-                label: "Discord",
-                href: "https://discordapp.com",
+                label: "GitHub",
+                href: "https://github.com/decentvcs",
               },
               {
-                // TODO: Add twitter link
                 label: "Twitter",
-                href: "https://twitter.com",
+                href: "https://twitter.com/decentvcs",
               },
             ],
           },
@@ -101,13 +107,13 @@ const config = {
             title: "More",
             items: [
               {
-                label: "GitHub",
-                href: "https://github.com/decentvcs",
+                label: "Website",
+                href: "https://decentvcs.com",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Decent, LLC. All rights reserved.`,
+        copyright: `Copyright ${new Date().getFullYear()} DecentVCS, LLC. All rights reserved.`,
       },
       prism: {
         theme: lightCodeTheme,
