@@ -24,7 +24,7 @@ infrastructure with 100% uptime and unrivaled security so you can sleep soundly 
 
 ### 🧵 Patch revisions
 
-[Enable patch revisions](/docs/patch-revisions) on a per-project basis to further reduce storage costs by only uploading
+Enable patch revisions on a per-project basis to further reduce storage costs by only uploading
 a patch file containing the changes instead of the entire file every time (also known as a snapshot). This can also
 drastically improve commit and workflow speed since there's less to upload to remote storage on every change. Time to
 work smarter, not harder.
