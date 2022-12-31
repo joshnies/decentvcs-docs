@@ -13,25 +13,27 @@ Check out the [Getting Started](/docs/getting-started) section to create your fi
 
 ## Features
 
+### ☁️ Fully-managed cloud hosting
+
+We manage all of the cloud infrastructure for you, so you can focus on what matters most: building your project. No need
+to deal with server maintenance, security, scaling, or storage providers.
+
 ### 🗃 Decentralized storage
 
-We utilize decentralized cloud storage to drastically reduce both storage and bandwidth costs across the board. This
-results in saving up to 80% or more in costs compared to other solutions, all of which can go back into building your
-dream.
-
-Decentralizing your project's storage also provides numerous other benefits, including an always-available data
-infrastructure with 100% uptime and unrivaled security so you can sleep soundly after a hard day's work.
+We utilize decentralized cloud storage to drastically reduce both storage and bandwidth costs across the board, meaning
+more money in your pocket to keep building your dream project. Other benefits include an always-available data
+infrastructure with 100% uptime and unrivaled storage security.
 
 ### 🧵 Patch revisions
 
-Enable patch revisions on a per-project basis to further reduce storage costs by only uploading
-a patch file containing the changes instead of the entire file every time (also known as a snapshot). This can also
-drastically improve commit and workflow speed since there's less to upload to remote storage on every change. Time to
-work smarter, not harder.
+Patch revisions further reduce storage costs by only uploading a patch file containing the changes instead of the entire
+file every time (A.K.A. "atomic" or "snapshot" revisions). This can also drastically improve commit and workflow speed
+since there's less to upload to remote storage on every change. It's time we work smarter, not harder.
 
 :::note
 
-You also have the choice to use traditional atomic (snapshot-based) revisions used in other VCS solutions.
+Patch revsions are enabled on a per-project basis. You can still opt-in to traditional atomic revisions used in other
+VCS solutions.
 
 :::
 
@@ -43,12 +45,12 @@ projects faster so you can keep on creating. This also helps reduce bandwidth us
 ### 🔐 File locking with overrides
 
 Lock files remotely to prevent changes by other team members while you work on them. Project administrators can also
-**force-unlock** files at any time, allowing you to remain unblocked and to continue building.
+**force-unlock** files at any time, allowing your team to remain unblocked and prevent halts in development.
 
-### 🖥 Cross-platform app
+### 🖥 Desktop app
 
-We built a [desktop app](https://decentvcs.com/downloads) for managing all of the complexities of VCS for
-you.
+We built a [cross-platform desktop app](https://decentvcs.com/downloads) for managing all of the complexities of VCS for
+you. Designed with creative teams in mind, we're making version control easy and accessible for everyone.
 
 ### 🤓 CLI
 
@@ -59,4 +61,4 @@ DecentVCS into your custom workflow. Anything you can do with the desktop app, y
 
 Decentralizing your project's storage, utilizing a smart patch-based revision system, and numerous other upgrades
 to the traditional large-file version control workflows of the past enable you and your team to work faster and smarter,
-all while saving a ridiculous amount of money.
+all while saving a ridiculous amount of both time and money.
