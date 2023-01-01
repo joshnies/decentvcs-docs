@@ -4,12 +4,6 @@ sidebar_position: 5
 
 # Commits
 
-:::caution
-
-Work in progress
-
-:::
-
 ## Push
 
 Push local changes to remote as a new commit.

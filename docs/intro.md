@@ -6,10 +6,16 @@ sidebar_position: 1
 
 Welcome to **DecentVCS, the simple version control system for massive projects.**
 
-:::tip
+:::caution
+
+Documentation is a work in progress and is missing some key sections.
+
+:::
+
+<!-- :::tip
 Check out the [Getting Started](/docs/getting-started) section to create your first project in less than
 5 minutes.
-:::
+::: -->
 
 ## Features
 
@@ -48,6 +54,12 @@ Lock files remotely to prevent changes by other team members while you work on t
 **force-unlock** files at any time, allowing your team to remain unblocked and prevent halts in development.
 
 ### 🖥 Desktop app
+
+:::caution
+
+Coming soon.
+
+:::
 
 We built a [cross-platform desktop app](https://decentvcs.com/downloads) for managing all of the complexities of VCS for
 you. Designed with creative teams in mind, we're making version control easy and accessible for everyone.
