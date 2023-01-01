@@ -53,11 +53,11 @@ const config = {
           src: "img/logo-circle.png",
         },
         items: [
-          {
-            href: "https://decentvcs.com/downloads",
-            label: "Downloads",
-            position: "left",
-          },
+          // {
+          //   href: "https://decentvcs.com/downloads",
+          //   label: "Downloads",
+          //   position: "left",
+          // },
           {
             href: "https://decentvcs.com/support",
             label: "Support",
@@ -80,10 +80,10 @@ const config = {
                 label: "Introduction",
                 to: "/docs/intro",
               },
-              {
-                label: "Getting Started",
-                to: "/docs/getting-started",
-              },
+              // {
+              //   label: "Getting Started",
+              //   to: "/docs/getting-started",
+              // },
               {
                 label: "CLI Reference",
                 to: "/docs/cli",
